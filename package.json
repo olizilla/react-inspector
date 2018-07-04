@@ -1,7 +1,7 @@
 {
-  "name": "react-inspector",
+  "name": "@tableflip/react-inspector",
   "version": "2.3.0",
-  "description": "Power of Browser DevTools inspectors right inside your React app",
+  "description": "Temporary fork of react-inpsector with buffer and truncation powers",
   "keywords": [
     "devtools",
     "inspector",
@@ -20,16 +20,16 @@
     "ui",
     "view"
   ],
-  "homepage": "https://github.com/xyc/react-inspector",
+  "homepage": "https://github.com/olizilla/react-inspector",
   "bugs": {
-    "url": "https://github.com/xyc/react-inspector/issues"
+    "url": "https://github.com/olizilla/react-inspector/issues"
   },
   "license": "MIT",
   "author": "Xiaoyi Chen <cxychina@gmail.com> (http://github.com/xyc)",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xyc/react-inspector.git"
+    "url": "https://github.com/olizilla/react-inspector.git"
   },
   "scripts": {
     "build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
